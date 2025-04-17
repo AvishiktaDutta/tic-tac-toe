@@ -62,7 +62,7 @@ const gamedraw = () => {
 
  const enabledBoxes = () => {
     for(let box of boxes) {
-        box.enabledBoxes = true;
+        box.disabled = false;
         box.innerText = "";
     }
  };
