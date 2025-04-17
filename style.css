@@ -80,3 +80,9 @@ body{
 .hide{
     display: none;
 }
+
+@media  screen and (max-width : 800px){
+    .msgContainer{
+        height: 210vmin;
+    }
+}
